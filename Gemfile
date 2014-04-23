@@ -15,7 +15,8 @@ gem 'faker'
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'rest_client'
-
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'dotenv-rails'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
