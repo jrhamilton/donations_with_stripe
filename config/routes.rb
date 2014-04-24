@@ -4,4 +4,5 @@ NonProfitDonation::Application.routes.draw do
   resources :companies
   resources :donations
   resources :charges
+  resources :subscriptions
 end
